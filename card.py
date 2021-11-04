@@ -35,6 +35,3 @@ class Card(object):
     #     return not (self.suit == other.suit and self.rank == other.rank)
     def rate_a_card(self):
         return int("{}{}".format(self.rank, self.suit))
-# card = Card(2, 11)
-# print(card)
-print("hi")
