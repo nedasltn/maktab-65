@@ -10,7 +10,7 @@ for i in range(10):
 deck.sort()
 print(deck)
 print("{} cards remain in deck".format(deck.n))
-print("------------------------------")
+print("******************************")
 print(bijan_hand)
 
 mitra_hand = Hand("Mitra")
@@ -20,7 +20,7 @@ for i in range(10):
     else:
         c = deck.pop_card("Bot")
     mitra_hand.add_card(c)
-print("------------------------------")
+print("******************************")
 print(mitra_hand)
 
 bijan_hand.compare_hands(mitra_hand)
